@@ -5,7 +5,24 @@
  Note that there is no constructor or destructor,
  so a default one will be created for us.
 """
-class Rectangle:
+
+# Task 2
+class Shape():
+    def set_values(self, width, height):
+        pass
+
+class Rectangle(Shape):
+    # Define the constructor for width and height
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
+    
+    def get_width(self):
+        return self.width
+
+    def get_height(self):
+        return self.height
+    
     def set_values(self, x, y):
         self.width = x
         self.height = y
