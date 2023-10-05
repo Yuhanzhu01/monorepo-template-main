@@ -1,7 +1,7 @@
 # Monorepo
 
-- [ ] *Your Name Here* **(TODO: Change this heading to your name, because your github name is often not your real name)**
-- [ ] *[Phonetic spelling](https://dictionary.cambridge.org/us/help/phonetics.html) of your name here* **(TODO: Change this)**
+- [ ] Yuhan Zhu 
+- [ ] Yuhan ʒu
 
 ## Important Documents 
 
@@ -11,6 +11,7 @@
   - [Tokens Extension System](./docs/tokens.md) -- Answers questions about how to extend our assignment or lab to avoid late penalties.
 - Tips
   -  [Tips](./docs/Tips.md) -- Contains a few programming tips to keep in mind.
+ls
 
 ## Using the Monorepo to get help
 
