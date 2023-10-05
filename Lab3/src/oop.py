@@ -39,7 +39,24 @@ class Image:
 
 
 class Texture(Image):
-    pass
+    
+    def __init__(self, image):
+        self.image = image
+
+    def getWidth(self):
+        return self.image.getWidth()
+
+    def getHeight(self):
+        return self.image.getHeight()
+
+    def getPixelColorR(self, x, y):
+        return self.image.getPixelColorR(x, y)
+
+    def getPixels(self):
+        return self.image.getPixels()
+
+    def setPixelsToRandomValue(self):
+        self.image.setPixelsToRandomValue()
 
 
 def main():
