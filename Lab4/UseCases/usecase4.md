@@ -6,31 +6,31 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: *Draw the canvas pencil-like*
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: *User*
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: *to drag and draw over the canvas like a pencil on a piece of paper*
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: *The program must be running and in a responsive state.*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: *the mouse is pressed and a user left-clicks (i.e. on the pressed event, not released)*
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: *user press and left-clicks (i.e. on the pressed event, not released) a pixel color will change wherever the mouse is located. and user can drag and draw over the canvas like a pencil on a piece of paper*
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: *The program may become potentially unresponsive. In this case, the program can be terminated from the operating system.*
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: *mid-priority*
 
-**When available**: *the targeted release that covers this use case*
+**When available**: *Third release*
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: *The primary actor communicates through I/O devices. This includes the keyboard and the mouse. The system is responsible for maintaining focus of the window when the user clicks, and should respond within 1 second of any keyboard event. The user is responsible for all other input.*
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
+**Secondary Actor**: *NA*
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Channels to Secondary Actors**: *NA*
 
-**Open Issues**: *notes, concerns, or other materials*
+**Open Issues**:*allow user to change the texture of the tool to draw*
 
 <hr>
 

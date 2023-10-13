@@ -6,31 +6,32 @@
 
 <hr>
 
-**Use Case**: *use-case-title*
+**Use Case**: *Program Start*
 
-**Primary Actor**: *primary-actor*
+**Primary Actor**: *User*
 
-**Goal in Context**: *the aim of the primary-actor in a particular circumstance*
+**Goal in Context**: *Start the program with a window and drawable canvas *
 
-**Preconditions**: *conditions that must be true before the scenario may play out*
+**Preconditions**: *NA*
 
-**Trigger**: *an action or actions that initiate the scenario*
+**Trigger**: *user starts the program*
   
-**Scenario**: *an enumerated list of steps describing the actions and interactions of the primary actor with the system*
+**Scenario**: *A user opens the program and there is a window and a 600x400 drawable canvas*
  
-**Exceptions**: *errors or faults that may occur during the scenario. Should include remedy/corrective action taken by the primary actor*
+**Exceptions**: *The program may become potentially unresponsive. In this case, the program can be terminated from the operating system.*
 
-**Priority**: *relative importance of this use case compared to other use cases*
+**Priority**: *High-priority.*
 
-**When available**: *the targeted release that covers this use case*
+**When available**: *First release*
 
-**Channel to actor**: *the means through which the primary actor and the system communicate*
+**Channel to actor**: *The primary actor communicates through I/O devices. This includes the keyboard and the mouse. The system is responsible for maintaining focus of the window when the user clicks, and should respond within 1 second of any keyboard event. The user is responsible for all other input.*
 
-**Secondary Actor**: *any other actors – people or systems – that may be involved in the scenario*
 
-**Channels to Secondary Actors**: *the means through which any secondary actors may interact with the system or other actors*
+**Secondary Actor**: *N/A*
 
-**Open Issues**: *notes, concerns, or other materials*
+**Channels to Secondary Actors**: *N/A*
+
+**Open Issues**: *We may need to implement 'customize' function in the future, and revise this use case to prompt a user with a customized-size canvas.*
 
 <hr>
 
